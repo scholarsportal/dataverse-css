@@ -1,0 +1,73 @@
+/*
+Custom CSS file for Scholars Portal Dataverse
+*/
+
+/* Logo positioning */
+#navbarFixed .navbar-brand.custom-logo {
+    padding-top: 5%;
+    padding-right: 0%;
+    padding-bottom: 0%;
+    padding-left: 1%;
+}
+
+/* Navbar, Footer */
+.navbar-default .navbar-nav>li>a,
+#navbarFixed form.navbar-form-link a.ui-commandlink,
+#navbarFixed ul.navbar-nav li.dropdown span.dropdown-toggle,
+#footer {
+    color: #676767;
+}
+
+/* Darken link colours */
+.resultDatasetCitationBlock>a,
+.citation-block a,
+.file-metadata-block a,
+.btn-link,
+.ui-tabs .ui-tabs-nav.ui-widget-header li a,
+.dataverseHeaderDataverseName,
+.dataverseHeaderLink a {
+    color: #2a6da7;
+}
+
+/* Links in bootstrap alerts */
+.alert-info a {
+    color: #2d5a82;
+}
+
+/* Dataverse Affiliation */
+.dataverseHeaderName span:not(.label) {
+    color: #676767 !important;
+}
+
+/* Footer text and breadcrumb arrows */
+.text-muted,
+.version,
+.breadcrumbCarrot {
+    color: #676767 !important;
+}
+
+/* File uploader drag and drop message */
+#dragdropMsg {
+    color: #6e6e6e;
+}
+
+/* "Previous" pagination buttons */
+.pagination>.disabled>a,
+.pagination>.disabled>a:focus,
+.pagination>.disabled>a:hover,
+.pagination>.disabled>span,
+.pagination>.disabled>span:focus,
+.pagination>.disabled>span:hover {
+    color: #676767;
+}
+
+/* Version label on dataset page */
+.label-default {
+    background-color: #696969;
+}
+
+/* Metrics label on the root dataverse page */
+#metrics-label:hover,
+#metrics-label:focus {
+    background: #dedede;
+}
