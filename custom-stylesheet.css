@@ -2,14 +2,6 @@
 Custom CSS file for Scholars Portal Dataverse
 */
 
-/* Logo positioning */
-#navbarFixed .navbar-brand.custom-logo {
-    padding-top: 5%;
-    padding-right: 0%;
-    padding-bottom: 0%;
-    padding-left: 1%;
-}
-
 /* Navbar, Footer */
 .navbar-default .navbar-nav>li>a,
 #navbarFixed form.navbar-form-link a.ui-commandlink,
